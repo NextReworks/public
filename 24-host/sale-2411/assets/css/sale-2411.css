@@ -1,0 +1,29 @@
+.status-btn:hover,
+.status-btn:focus,
+.status-btn:not(:disabled):not(.disabled):active,
+.status-btn:not(:disabled):not(.disabled).active,
+.show>.status-btn.dropdown-toggle {
+    color: black;
+    background-color: whitesmoke;
+    border-color: black;
+}
+
+.py-vh-7 {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.py-vh-8 {
+    padding-top: 24vh;
+    padding-bottom: 24vh;
+}
+
+.py-vh-9 {
+    padding-top: 28vh;
+    padding-bottom: 28vh;
+}
+
+.py-vh-10 {
+    padding-top: 32vh;
+    padding-bottom: 32vh;
+}
