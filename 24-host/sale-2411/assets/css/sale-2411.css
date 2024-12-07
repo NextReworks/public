@@ -1,3 +1,4 @@
+
 .status-btn:hover,
 .status-btn:focus,
 .status-btn:not(:disabled):not(.disabled):active,
@@ -26,4 +27,20 @@
 .py-vh-10 {
     padding-top: 32vh;
     padding-bottom: 32vh;
+}
+
+/*////// custom */
+.checkout-btn:hover,
+.checkout-btn:focus,
+.checkout-btn:not(:disabled):not(.disabled):active,
+.checkout-btn:not(:disabled):not(.disabled).active,
+.show>.checkout-btn.dropdown-toggle {
+    color: black;
+    background-color: whitesmoke;
+    border-color: black;
+}
+
+.cart-list {
+    margin: 0;
+    padding: 0;
 }
